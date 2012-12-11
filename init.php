@@ -110,7 +110,7 @@ try {
        . $requeteLaPlusLongue . "<br >";
 */
 
-	echo 'chinois';
+	echo 'BLABLABLA';
 
 
 
