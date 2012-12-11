@@ -1,3 +1,3 @@
 <?php
 
-echo 'pwet';
+echo test;
