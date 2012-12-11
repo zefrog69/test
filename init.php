@@ -64,6 +64,7 @@ try {
     }
 
     
+	echo 'ezhkerhr';
     $application->run();
 
      // on vide le body
