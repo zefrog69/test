@@ -75,38 +75,6 @@ try {
     $viewRenderer->view->headLink()->exchangeArray(array());
     $viewRenderer->view->inlineScript()->exchangeArray(array());
 
-/*
-    $db = Zend_Registry::get('db');
-    $profileur = $db->getProfiler();
-    
-    $tempsTotal       = $profileur->getTotalElapsedSecs();
-    $nombreRequetes   = $profileur->getTotalNumQueries();
-    $tempsLePlusLong  = 0;
-    $requeteLaPlusLongue = null;
-
-    foreach ($profileur->getQueryProfiles() as $query) {
-        if ($query->getElapsedSecs() > $tempsLePlusLong) {
-            $tempsLePlusLong  = $query->getElapsedSecs();
-            $requeteLaPlusLongue = $query->getQuery();
-        }
-    }
-
-    echo 'Exécution de '
-       . $nombreRequetes
-       . ' requêtes en '
-       . $tempsTotal
-       . ' secondes' . "<br >";
-    echo 'Temps moyen : '
-       . $tempsTotal / $nombreRequetes
-       . ' secondes' . "<br >";
-    echo 'Requêtes par seconde: '
-       . $nombreRequetes / $tempsTotal
-       . ' seconds' . "<br >";
-    echo 'Requête la plus lente (secondes) : '
-       . $tempsLePlusLong . "<br >";
-    echo "Requête la plus lente (SQL) : <br >"
-       . $requeteLaPlusLongue . "<br >";
-*/
 
 
 
