@@ -62,6 +62,7 @@ try {
     }
 
     
+	echo 'ezhkerhr';
     $application->run();
 
      // on vide le body
@@ -108,7 +109,7 @@ try {
        . $requeteLaPlusLongue . "<br >";
 */
 
-	echo 'chinois';
+	echo 'zejgrezgh';
 
 
 
