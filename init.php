@@ -19,6 +19,8 @@ set_include_path('.'
     . PATH_SEPARATOR . get_include_path()
 );
 
+echo 'pr00t';
+
 // on charge et on initialise l'autoloader de Zend
 require_once 'Zend/Loader/Autoloader.php';
 Zend_Loader_Autoloader::getInstance();
