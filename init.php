@@ -20,6 +20,7 @@ set_include_path('.'
 );
 
 echo 'pr00t';
+echo 'postpr00t';
 
 // on charge et on initialise l'autoloader de Zend
 require_once 'Zend/Loader/Autoloader.php';
