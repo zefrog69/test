@@ -10,7 +10,7 @@ defined('APPLICATION_PATH') || define('APPLICATION_PATH', realpath(dirname(__FIL
 
 // Définition de l'environnement de l'application
 defined('APPLICATION_ENV') || define('APPLICATION_ENV', (getenv('APPLICATION_ENV') ?
-getenv('APPLICATION_ENV') : 'dev'));
+getenv('APPLICATION_ENV') : 'preprod'));
 
 // Ajout du chemin de la bibilothèque de ZF à l'include path
 
@@ -121,7 +121,7 @@ try {
        . $requeteLaPlusLongue . "<br >";
 */
 
-	echo 'BLABLABLA';
+	echo 'pOULALA';
 
 
 
