@@ -10,7 +10,7 @@ defined('APPLICATION_PATH') || define('APPLICATION_PATH', realpath(dirname(__FIL
 
 // Définition de l'environnement de l'application
 defined('APPLICATION_ENV') || define('APPLICATION_ENV', (getenv('APPLICATION_ENV') ?
-getenv('APPLICATION_ENV') : 'production'));
+getenv('APPLICATION_ENV') : 'dev'));
 
 // Ajout du chemin de la bibilothèque de ZF à l'include path
 
