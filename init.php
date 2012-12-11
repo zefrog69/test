@@ -1,5 +1,9 @@
 <?php
 
+
+
+echo 'toto';
+
 // Fichier d'amorçage // bootstrap
 // Definition du chemin du dossier de l'application
 defined('APPLICATION_PATH') || define('APPLICATION_PATH', realpath(dirname(__FILE__) . '/application'));
